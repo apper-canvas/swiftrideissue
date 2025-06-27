@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "rideId": 1,
+    "senderId": "user",
+    "content": "I'm on my way down",
+    "timestamp": "2024-01-15T14:25:00.000Z"
+  },
+  {
+    "Id": 2,
+    "rideId": 1,
+    "senderId": "driver",
+    "content": "Great! I'll be waiting outside.",
+    "timestamp": "2024-01-15T14:25:30.000Z"
+  },
+  {
+    "Id": 3,
+    "rideId": 2,
+    "senderId": "driver",
+    "content": "I'm here at the pickup location",
+    "timestamp": "2024-01-14T09:10:00.000Z"
+  },
+  {
+    "Id": 4,
+    "rideId": 2,
+    "senderId": "user",
+    "content": "Thank you! Coming out now",
+    "timestamp": "2024-01-14T09:10:15.000Z"
+  }
+]

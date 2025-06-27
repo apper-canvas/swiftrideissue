@@ -1,0 +1,91 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 text-white px-6 py-3 rounded-xl font-semibold 
+           shadow-float hover:shadow-premium transition-all duration-300 hover:scale-105 
+           active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-700 px-6 py-3 rounded-xl font-semibold border-2 border-primary-200
+           hover:bg-primary-50 hover:border-primary-300 transition-all duration-300 hover:scale-105 
+           active:scale-95 shadow-sm;
+  }
+  
+  .card-float {
+    @apply bg-white rounded-2xl shadow-panel backdrop-blur-lg border border-gray-100;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-primary-500 
+           focus:ring-4 focus:ring-primary-100 outline-none transition-all duration-300
+           placeholder-gray-400 font-medium;
+  }
+  
+  .status-pill {
+    @apply px-4 py-2 rounded-full font-semibold text-sm;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent;
+  }
+}
+
+/* Toast Customization */
+.Toastify__toast-container {
+  top: 80px;
+  right: 16px;
+  width: auto;
+  max-width: 400px;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  padding: 16px;
+  min-height: auto;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+}

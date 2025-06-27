@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "name": "Michael Rodriguez",
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "rating": 4.9,
+    "vehicle": {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "color": "Silver",
+      "licensePlate": "ABC-123"
+    },
+    "location": {
+      "lat": 40.7505,
+      "lng": -73.9934
+    },
+    "status": "available"
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Chen",
+    "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b3c5?w=150&h=150&fit=crop&crop=face",
+    "rating": 4.8,
+    "vehicle": {
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2023,
+      "color": "Black",
+      "licensePlate": "XYZ-789"
+    },
+    "location": {
+      "lat": 40.7614,
+      "lng": -73.9776
+    },
+    "status": "available"
+  },
+  {
+    "Id": 3,
+    "name": "David Johnson",
+    "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "rating": 4.7,
+    "vehicle": {
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2021,
+      "color": "White",
+      "licensePlate": "DEF-456"
+    },
+    "location": {
+      "lat": 40.7282,
+      "lng": -74.0776
+    },
+    "status": "busy"
+  },
+  {
+    "Id": 4,
+    "name": "Amanda Thompson",
+    "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "rating": 4.9,
+    "vehicle": {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2022,
+      "color": "Blue",
+      "licensePlate": "GHI-789"
+    },
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712
+    },
+    "status": "available"
+  },
+  {
+    "Id": 5,
+    "name": "Carlos Martinez",
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "rating": 4.6,
+    "vehicle": {
+      "make": "Kia",
+      "model": "Forte",
+      "year": 2023,
+      "color": "Red",
+      "licensePlate": "JKL-012"
+    },
+    "location": {
+      "lat": 40.6892,
+      "lng": -74.0445
+    },
+    "status": "available"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "Id": 1,
+    "userId": "user123",
+    "driverId": 1,
+    "status": "completed",
+    "type": "standard",
+    "pickupLocation": {
+      "address": "123 Main St, Downtown",
+      "coordinates": { "lat": 40.7128, "lng": -74.0060 }
+    },
+    "destination": {
+      "address": "456 Oak Ave, Midtown",
+      "coordinates": { "lat": 40.7589, "lng": -73.9851 }
+    },
+    "fare": 15.75,
+    "distance": 5.2,
+    "duration": 18,
+    "timestamp": "2024-01-15T14:30:00.000Z",
+    "paymentMethod": "credit_card",
+    "rating": 5
+  },
+  {
+    "Id": 2,
+    "userId": "user123",
+    "driverId": 2,
+    "status": "completed",
+    "type": "premium",
+    "pickupLocation": {
+      "address": "789 Pine Rd, Uptown",
+      "coordinates": { "lat": 40.7831, "lng": -73.9712 }
+    },
+    "destination": {
+      "address": "Airport Terminal 1",
+      "coordinates": { "lat": 40.6413, "lng": -73.7781 }
+    },
+    "fare": 28.50,
+    "distance": 12.8,
+    "duration": 35,
+    "timestamp": "2024-01-14T09:15:00.000Z",
+    "paymentMethod": "credit_card",
+    "rating": 4
+  },
+  {
+    "Id": 3,
+    "userId": "user123",
+    "driverId": 3,
+    "status": "completed",
+    "type": "carpool",
+    "pickupLocation": {
+      "address": "Central Train Station",
+      "coordinates": { "lat": 40.7527, "lng": -73.9772 }
+    },
+    "destination": {
+      "address": "567 Elm St, Brooklyn",
+      "coordinates": { "lat": 40.6782, "lng": -73.9442 }
+    },
+    "fare": 9.25,
+    "distance": 8.4,
+    "duration": 22,
+    "timestamp": "2024-01-13T17:45:00.000Z",
+    "paymentMethod": "credit_card",
+    "rating": 5
+  },
+  {
+    "Id": 4,
+    "userId": "user123",
+    "driverId": 1,
+    "status": "completed",
+    "type": "standard",
+    "pickupLocation": {
+      "address": "234 Broadway, Financial District",
+      "coordinates": { "lat": 40.7074, "lng": -74.0113 }
+    },
+    "destination": {
+      "address": "890 Park Ave, Upper East Side",
+      "coordinates": { "lat": 40.7736, "lng": -73.9566 }
+    },
+    "fare": 18.90,
+    "distance": 7.1,
+    "duration": 24,
+    "timestamp": "2024-01-12T12:20:00.000Z",
+    "paymentMethod": "credit_card",
+    "rating": 4
+  },
+  {
+    "Id": 5,
+    "userId": "user123",
+    "driverId": 2,
+    "status": "completed",
+    "type": "carpool",
+    "pickupLocation": {
+      "address": "345 Madison Ave, Midtown",
+      "coordinates": { "lat": 40.7549, "lng": -73.9840 }
+    },
+    "destination": {
+      "address": "678 Washington St, West Village",
+      "coordinates": { "lat": 40.7331, "lng": -74.0088 }
+    },
+    "fare": 7.40,
+    "distance": 3.6,
+    "duration": 16,
+    "timestamp": "2024-01-11T19:30:00.000Z",
+    "paymentMethod": "credit_card",
+    "rating": 5
+  }
+]

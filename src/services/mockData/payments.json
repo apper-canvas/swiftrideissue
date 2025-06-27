@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "userId": "user123",
+    "cardLast4": "4242",
+    "cardType": "visa",
+    "isDefault": true
+  },
+  {
+    "Id": 2,
+    "userId": "user123",
+    "cardLast4": "8888",
+    "cardType": "mastercard",
+    "isDefault": false
+  }
+]
