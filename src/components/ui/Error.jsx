@@ -9,14 +9,13 @@ const Error = ({
   showRetry = true,
   type = 'general' 
 }) => {
-  const getErrorConfig = (errorType) => {
+const getErrorConfig = (errorType) => {
     const configs = {
       network: {
         icon: 'WifiOff',
         title: 'Connection Problem',
         description: 'Please check your internet connection and try again.',
         color: 'text-amber-600',
-color: 'text-amber-600',
         bgColor: 'bg-amber-50',
         borderColor: 'border-amber-200',
       },
