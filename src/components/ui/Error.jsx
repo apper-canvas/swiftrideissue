@@ -16,13 +16,13 @@ const Error = ({
         title: 'Connection Problem',
         description: 'Please check your internet connection and try again.',
         color: 'text-amber-600',
+color: 'text-amber-600',
         bgColor: 'bg-amber-50',
         borderColor: 'border-amber-200',
       },
-notFound: {
+      notFound: {
         icon: 'Search',
         title: 'Not Found',
-        description: 'The information you're looking for could not be found.',
         color: 'text-blue-600',
         bgColor: 'bg-blue-50',
         borderColor: 'border-blue-200',
